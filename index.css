@@ -603,6 +603,41 @@ margin-bottom: -140px;
     }
 }
 
+@media screen and (max-width: 323px) {
+    .skills div{
+           height:40%;
+    width:auto;
+    
+     
+    }
+
+    .skills img{
+        margin-bottom: 80px;
+    }
+
+    .contact{
+    
+margin-top: -280px;
+}
+}
+
+@media screen and (max-width: 323px) {
+    .skills div{
+           height:35%;
+    width:auto;
+    
+     
+    }
+
+     .skills img{
+        margin-bottom: 100px;
+    }
+
+    .contact{
+    
+margin-top: -360px;
+} 
+
 
 
 @media screen and (max-width: 600px) {
