@@ -76,10 +76,14 @@ Glad To See
                 and staying up-to-date with the latest design trends and technologies, 
                 in order to provide the best possible experience for my clients.
             </p>
+            <a href="https://drive.google.com/file/d/1q31vdHg8GeVFQhULt31Rze5JSXiUBNze/view?usp=sharing" download="Henriette_CV.pdf">
             <div class="download">
+                
                 <img src="svg logos/download.png">
                 <p>Download My Resume</p>
+                
             </div>
+            </a>
 
 
         </div>
@@ -98,14 +102,17 @@ Glad To See
 
         </div>
     </section>
-
-    <section class="contact" id="contact">
-        <p class="contactMe">CONTACT ME</p>
-        <input type="text" placeholder="Enter your name">
-        <input type="text" placeholder="Enter your email">
-        <textarea id="message" name="message" placeholder="Write your message here"></textarea>
-        <p class="sendButton">Send</p>
-    </section>   
+    <form id="form-submit" action="https://formspree.io/f/xoqzgnbw" method="post">
+        <section class="contact" id="contact">
+        
+            <p class="contactMe">CONTACT ME</p>
+            <input type="text" name="Username" placeholder="Enter your name">
+            <input type="text"  name="Email" placeholder="Enter your email">
+            <textarea  rows="13" id="message" name="message" placeholder="Write your message here"></textarea>
+            <button type="submit" class="sendButton">Send</button>
+        
+        </section> 
+    </form>  
     <script type="text/javascript" src="index.js"></script>   
 </body>
 </html>

@@ -311,9 +311,13 @@ color: #949494;
 
 textarea{
     width: 40%;
-    height: 200px;
+    /* height: 200px; */
     background: #FFFFFF;
     border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 7px;
+
 }
 
 textarea::placeholder{
@@ -352,7 +356,7 @@ cursor: pointer;
     font-weight: bold;
 }
 
-
+/* mobile screen media queries */
 
 @media screen and (max-width: 600px) {
   .navbar p:not(:first-child) {display: none;}
@@ -561,16 +565,17 @@ color: #949494;
 
 }
 
-textarea{
+/* textarea{
     width: 60%;
     height: 200px;
    border-radius: 10px;
+  
 }
 
 textarea::placeholder{
    font-size: 13px;
    
-}
+} */
 
 .sendButton{
  
@@ -637,6 +642,7 @@ margin-top: -280px;
     
 margin-top: -360px;
 } 
+}
 
 
 
@@ -692,6 +698,26 @@ margin-top: -360px;
 
   }
   
+}
+
+
+/* tablets screen media queries */
+
+@media (min-width: 768px) and (max-width: 1294px) {
+/* 
+ .rightIntro{
+    margin-left: 120px;
+    margin-top: 100px;
+
+}
+.description{
+    width:unset;
+    color:#0C1C0D;
+    font-size:16px;
+    margin-top: -70px;
+}
+     */
+    
 }
 
 
