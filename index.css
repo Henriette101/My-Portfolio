@@ -115,7 +115,7 @@ body{
     
 }
 .description{
-    width:680px;
+    /* width:680px; */
     color:#0C1C0D;
     font-size:1.2vw;
     margin-top: -70px;
@@ -565,17 +565,16 @@ color: #949494;
 
 }
 
-/* textarea{
+textarea{
     width: 60%;
-    height: 200px;
    border-radius: 10px;
   
 }
 
 textarea::placeholder{
    font-size: 13px;
-   
-} */
+   padding-left: 0px;
+}
 
 .sendButton{
  
@@ -699,6 +698,62 @@ margin-top: -360px;
   }
   
 }
+
+@media screen and (max-width: 968px) {
+
+    .navbar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .p1 {
+        font-size: 20px;
+    }
+
+    .p2,
+    .p3,
+    .p4 {
+        font-size: 10px;
+    }
+
+    .rightIntro {
+        display: none;
+    }
+
+    .introshort {
+        font-size: 35px;
+    }
+
+    .introduction {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 90px;
+    }
+    
+    .description {
+        font-size: 20px;
+    }
+
+    .projects p {
+        font-size: 25px;
+    }
+
+    .projects img {
+       margin-left: 61px;
+    }
+
+    .about {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    input,
+    textarea {
+        width: 80%;
+    }
+  }
 
 
 /* tablets screen media queries */
