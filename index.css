@@ -357,7 +357,7 @@ cursor: pointer;
 }
 
 /* mobile screen media queries */
-@media (min-width: 768px) and (max-width: 1294px) {
+@media (min-width: 971px) {
     /* 
      .rightIntro{
         margin-left: 120px;
@@ -371,6 +371,21 @@ cursor: pointer;
         margin-top: -70px;
     }
          */
+    .introshort {
+        width: 125%;
+    }
+
+    .rightIntro {
+        margin-left: 170px;
+    }
+
+    .rightIntro img {
+        width: 80%;
+    }
+
+    .description {
+        font-size: 16px;
+    }
         
     }
     
